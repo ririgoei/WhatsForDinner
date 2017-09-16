@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="images">
+        <item>@mipmap/hamburger</item>
+        <item>@mipmap/potato_chowder</item>
+    </integer-array>
+</resources>
