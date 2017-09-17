@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToRecipesPage(View view) {
-        Intent intent = new Intent(this, RecipesPage.class);
+        Intent intent = new Intent(this, RecipeListActivity.class);
         startActivity(intent);
     }
 

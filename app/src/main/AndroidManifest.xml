@@ -17,10 +17,22 @@
             </intent-filter>
         </activity>
         <activity android:name=".MealsPage" />
-        <activity android:name=".RecipesPage" />
         <activity android:name=".NewDishPage" />
         <activity android:name=".GroceriesPage" />
-        <activity android:name=".LocalFileImages"></activity>
+        <activity android:name=".LocalFileImages" />
+        <activity
+            android:name=".RecipeListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".RecipeListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.sjsu.rmarcelita.whatsfordinner.RecipeListActivity" />
+        </activity>
     </application>
 
 </manifest>
